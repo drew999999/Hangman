@@ -1,0 +1,75 @@
+*{
+  padding: 0px auto;
+  margin: 0px auto;
+}
+h1{
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 50pt;
+  text-shadow: 2px 2px yellow;
+
+}
+
+body{
+  background-color: white;
+  background-image: url('batman.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Bangers', cursive;
+  font-size: 30pt;
+  color:Green;
+  /* text-shadow: 2px 2px red; */
+
+}
+#displayBox{
+  position: absolute;
+  top:60%;
+  left:200px;
+  text-shadow: 2px 2px yellow;
+
+
+}
+#wrapper{
+  height:420px;
+  width: 100%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  background-color: yellow;
+  margin-top: 10%;
+  background-image: url('joker.webp');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Bangers', cursive;
+
+}
+#hintbox{
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  top:70%;
+  left:80%;
+  border: 0px solid black;
+  background-color: ;
+  text-shadow: 2px 2px yellow;
+
+}
+
+#guessLetters{
+  position: absolute;
+  top:80%;
+  left:5%;
+  text-shadow: 2px 2px yellow;
+
+}
+
+#input-box{
+  position: absolute;
+  top:80%;
+  left:60%;
+  text-shadow: 2px 2px yellow;
+}
+#ending{
+  padding-bottom: 10%;
+}
